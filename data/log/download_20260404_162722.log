@@ -1,0 +1,38 @@
+2026-04-04 16:27:22,292  INFO      Log file: data\log\download_20260404_162722.log
+2026-04-04 16:27:22,293  INFO      =======================================================
+2026-04-04 16:27:22,293  INFO        AIRLINE MERGER DAMAGES — DATA DOWNLOAD
+2026-04-04 16:27:22,293  INFO        STAT 418 Final Project
+2026-04-04 16:27:22,293  INFO        Started: 2026-04-04 16:27:22
+2026-04-04 16:27:22,293  INFO      =======================================================
+2026-04-04 16:27:22,294  INFO      
+=======================================================
+2026-04-04 16:27:22,294  INFO        FRED API DATA DOWNLOAD
+2026-04-04 16:27:22,294  INFO        2 series: jet fuel prices + airline CPI
+2026-04-04 16:27:22,295  INFO      =======================================================
+
+2026-04-04 16:27:22,295  INFO        [DOWN] jet_fuel_weekly (WJFUELUSGULF) -- fetching from FRED...
+2026-04-04 16:27:22,295  DEBUG       URL: https://api.stlouisfed.org/fred/series/observations?series_id=WJFUELUSGULF&api_key=***&file_type=json&observation_start=2009-01-01&observation_end=2018-12-31
+2026-04-04 16:27:22,816  INFO        [OK]   jet_fuel_weekly -- 522 observations saved -> jet_fuel_weekly.csv
+2026-04-04 16:27:22,817  INFO               Date range: 2009-01-02 to 2018-12-28
+2026-04-04 16:27:23,319  INFO        [SKIP] airline_cpi (CUSR0000SETG01) -- already exists, skipping
+2026-04-04 16:27:23,820  INFO      
+=======================================================
+2026-04-04 16:27:23,820  INFO        DOWNLOAD SUMMARY
+2026-04-04 16:27:23,820  INFO      =======================================================
+2026-04-04 16:27:23,820  INFO      
+  DB1B Market Data:
+2026-04-04 16:27:23,820  INFO          [OK]   Downloaded: 0 quarters
+2026-04-04 16:27:23,820  INFO          [SKIP] Skipped:    0 quarters (already existed)
+2026-04-04 16:27:23,820  INFO          [FAIL] Failed:     0 quarters
+2026-04-04 16:27:23,820  INFO      
+  FRED Series:
+2026-04-04 16:27:23,820  INFO          [OK]   Downloaded: 2 series
+2026-04-04 16:27:23,820  INFO          [FAIL] Failed:     0 series
+2026-04-04 16:27:23,820  INFO      
+  Output files:
+2026-04-04 16:27:23,828  INFO          DB1B parquet files: 4102 MB total
+2026-04-04 16:27:23,828  INFO      
+  Total time: 0.0 minutes
+2026-04-04 16:27:23,829  INFO      
+  *** All downloads complete -- ready for EDA notebook! ***
+2026-04-04 16:27:23,829  INFO      =======================================================

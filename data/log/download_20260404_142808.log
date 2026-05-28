@@ -1,0 +1,23 @@
+2026-04-04 14:28:09,005  INFO      Log file: data\log\download_20260404_142808.log
+2026-04-04 14:28:09,005  INFO      =======================================================
+2026-04-04 14:28:09,005  INFO        AIRLINE MERGER DAMAGES — DATA DOWNLOAD
+2026-04-04 14:28:09,005  INFO        STAT 418 Final Project
+2026-04-04 14:28:09,005  INFO        Started: 2026-04-04 14:28:09
+2026-04-04 14:28:09,005  INFO      =======================================================
+2026-04-04 14:28:09,005  INFO      
+=======================================================
+2026-04-04 14:28:09,005  INFO        DOT DB1B MARKET DATA DOWNLOAD
+2026-04-04 14:28:09,005  INFO        32 quarters: 2010 Q1 to 2017 Q4
+2026-04-04 14:28:09,005  INFO      =======================================================
+2026-04-04 14:28:09,005  INFO      
+[01/32] 2010 Q1
+2026-04-04 14:28:09,010  DEBUG     URL: https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2010_1.zip
+2026-04-04 14:28:09,010  INFO        [DOWN] 2010 Q1 -- downloading (attempt 1/3)...
+2026-04-04 14:29:12,646  DEBUG       Downloaded 78.5 MB compressed
+2026-04-04 14:29:32,517  ERROR       Unexpected error: Unable to find a usable engine; tried using: 'pyarrow', 'fastparquet'.
+A suitable version of pyarrow or fastparquet is required for parquet support.
+Trying to import the above resulted in these errors:
+ - `Import pyarrow` failed. pyarrow is required for parquet support. Use pip or conda to install the pyarrow package.
+ - `Import fastparquet` failed. fastparquet is required for parquet support. Use pip or conda to install the fastparquet package.
+2026-04-04 14:29:32,518  INFO        Retrying in 5s...
+2026-04-04 14:29:37,519  INFO        [DOWN] 2010 Q1 -- downloading (attempt 2/3)...

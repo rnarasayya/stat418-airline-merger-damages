@@ -1,0 +1,5 @@
+Model,ATE (log points),ATE (% fare change),Controls,Heterogeneity
+Pooled OLS,-0.0277,-2.73%,"Fuel, CPI, distance, time trend",No
+Two-Way Fixed Effects,-0.0257,-2.54%,Route FE + Time FE + fuel + competition,No
+Double ML (LightGBM),0.0254,2.57%,LightGBM nuisance (all X_COLS),No (ATE only)
+Causal Forest (mean ITE),0.0438,4.48%,LightGBM nuisance (HET_COLS),Yes (ITE per route)

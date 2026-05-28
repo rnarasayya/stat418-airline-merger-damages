@@ -1,0 +1,12 @@
+data/raw/ 
+data/processed/ 
+api/artifacts/ 
+streamlit_app/data/ 
+models/artifacts/*.pkl 
+models/artifacts/*.parquet 
+__pycache__/ 
+*.pyc 
+.env 
+Fred API Key.txt 
+.Rhistory 
+.claude/ 

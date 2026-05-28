@@ -1,0 +1,239 @@
+2026-04-04 14:31:22,233  INFO      Log file: data\log\download_20260404_143122.log
+2026-04-04 14:31:22,233  INFO      =======================================================
+2026-04-04 14:31:22,233  INFO        AIRLINE MERGER DAMAGES — DATA DOWNLOAD
+2026-04-04 14:31:22,233  INFO        STAT 418 Final Project
+2026-04-04 14:31:22,233  INFO        Started: 2026-04-04 14:31:22
+2026-04-04 14:31:22,233  INFO      =======================================================
+2026-04-04 14:31:22,233  INFO      
+=======================================================
+2026-04-04 14:31:22,233  INFO        DOT DB1B MARKET DATA DOWNLOAD
+2026-04-04 14:31:22,233  INFO        32 quarters: 2010 Q1 to 2017 Q4
+2026-04-04 14:31:22,233  INFO      =======================================================
+2026-04-04 14:31:22,233  INFO      
+[01/32] 2010 Q1
+2026-04-04 14:31:22,233  DEBUG     URL: https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2010_1.zip
+2026-04-04 14:31:22,233  INFO        [DOWN] 2010 Q1 -- downloading (attempt 1/3)...
+2026-04-04 14:32:22,555  DEBUG       Downloaded 78.5 MB compressed
+2026-04-04 14:32:51,784  INFO        [OK]   2010 Q1 -- 4,906,864 rows saved -> db1b_market_2010_Q1.parquet
+2026-04-04 14:32:53,852  INFO      
+[02/32] 2010 Q2
+2026-04-04 14:32:53,852  DEBUG     URL: https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2010_2.zip
+2026-04-04 14:32:53,852  INFO        [DOWN] 2010 Q2 -- downloading (attempt 1/3)...
+2026-04-04 14:34:09,181  DEBUG       Downloaded 91.9 MB compressed
+2026-04-04 14:34:38,576  INFO        [OK]   2010 Q2 -- 5,782,414 rows saved -> db1b_market_2010_Q2.parquet
+2026-04-04 14:34:40,695  INFO      
+[03/32] 2010 Q3
+2026-04-04 14:34:40,695  DEBUG     URL: https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2010_3.zip
+2026-04-04 14:34:40,695  INFO        [DOWN] 2010 Q3 -- downloading (attempt 1/3)...
+2026-04-04 14:36:03,750  DEBUG       Downloaded 91.1 MB compressed
+2026-04-04 14:36:35,708  INFO        [OK]   2010 Q3 -- 5,613,491 rows saved -> db1b_market_2010_Q3.parquet
+2026-04-04 14:36:37,815  INFO      
+[04/32] 2010 Q4
+2026-04-04 14:36:37,816  DEBUG     URL: https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2010_4.zip
+2026-04-04 14:36:37,817  INFO        [DOWN] 2010 Q4 -- downloading (attempt 1/3)...
+2026-04-04 14:37:56,055  DEBUG       Downloaded 90.8 MB compressed
+2026-04-04 14:38:28,016  INFO        [OK]   2010 Q4 -- 5,735,916 rows saved -> db1b_market_2010_Q4.parquet
+2026-04-04 14:38:30,134  INFO      
+[05/32] 2011 Q1
+2026-04-04 14:38:30,134  DEBUG     URL: https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2011_1.zip
+2026-04-04 14:38:30,134  INFO        [DOWN] 2011 Q1 -- downloading (attempt 1/3)...
+2026-04-04 14:39:31,099  DEBUG       Downloaded 82.4 MB compressed
+2026-04-04 14:39:58,404  INFO        [OK]   2011 Q1 -- 5,382,059 rows saved -> db1b_market_2011_Q1.parquet
+2026-04-04 14:40:00,497  INFO      
+[06/32] 2011 Q2
+2026-04-04 14:40:00,497  DEBUG     URL: https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2011_2.zip
+2026-04-04 14:40:00,497  INFO        [DOWN] 2011 Q2 -- downloading (attempt 1/3)...
+2026-04-04 14:41:09,687  DEBUG       Downloaded 92.8 MB compressed
+2026-04-04 14:41:40,135  INFO        [OK]   2011 Q2 -- 5,935,437 rows saved -> db1b_market_2011_Q2.parquet
+2026-04-04 14:41:42,264  INFO      
+[07/32] 2011 Q3
+2026-04-04 14:41:42,265  DEBUG     URL: https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2011_3.zip
+2026-04-04 14:41:42,265  INFO        [DOWN] 2011 Q3 -- downloading (attempt 1/3)...
+2026-04-04 14:42:52,900  DEBUG       Downloaded 92.8 MB compressed
+2026-04-04 14:43:23,046  INFO        [OK]   2011 Q3 -- 5,931,080 rows saved -> db1b_market_2011_Q3.parquet
+2026-04-04 14:43:25,177  INFO      
+[08/32] 2011 Q4
+2026-04-04 14:43:25,177  DEBUG     URL: https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2011_4.zip
+2026-04-04 14:43:25,177  INFO        [DOWN] 2011 Q4 -- downloading (attempt 1/3)...
+2026-04-04 14:44:47,435  DEBUG       Downloaded 89.1 MB compressed
+2026-04-04 14:45:17,079  INFO        [OK]   2011 Q4 -- 5,750,599 rows saved -> db1b_market_2011_Q4.parquet
+2026-04-04 14:45:19,165  INFO      
+[09/32] 2012 Q1
+2026-04-04 14:45:19,166  DEBUG     URL: https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2012_1.zip
+2026-04-04 14:45:19,166  INFO        [DOWN] 2012 Q1 -- downloading (attempt 1/3)...
+2026-04-04 14:46:17,617  DEBUG       Downloaded 80.0 MB compressed
+2026-04-04 14:46:45,231  INFO        [OK]   2012 Q1 -- 5,307,048 rows saved -> db1b_market_2012_Q1.parquet
+2026-04-04 14:46:47,360  INFO      
+[10/32] 2012 Q2
+2026-04-04 14:46:47,361  DEBUG     URL: https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2012_2.zip
+2026-04-04 14:46:47,361  INFO        [DOWN] 2012 Q2 -- downloading (attempt 1/3)...
+2026-04-04 14:48:12,760  DEBUG       Downloaded 89.0 MB compressed
+2026-04-04 14:48:44,694  INFO        [OK]   2012 Q2 -- 5,879,839 rows saved -> db1b_market_2012_Q2.parquet
+2026-04-04 14:48:46,816  INFO      
+[11/32] 2012 Q3
+2026-04-04 14:48:46,816  DEBUG     URL: https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2012_3.zip
+2026-04-04 14:48:46,816  INFO        [DOWN] 2012 Q3 -- downloading (attempt 1/3)...
+2026-04-04 14:50:02,653  DEBUG       Downloaded 87.4 MB compressed
+2026-04-04 14:50:32,369  INFO        [OK]   2012 Q3 -- 5,736,949 rows saved -> db1b_market_2012_Q3.parquet
+2026-04-04 14:50:34,487  INFO      
+[12/32] 2012 Q4
+2026-04-04 14:50:34,490  DEBUG     URL: https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2012_4.zip
+2026-04-04 14:50:34,490  INFO        [DOWN] 2012 Q4 -- downloading (attempt 1/3)...
+2026-04-04 14:51:38,152  DEBUG       Downloaded 86.2 MB compressed
+2026-04-04 14:52:10,725  INFO        [OK]   2012 Q4 -- 5,780,006 rows saved -> db1b_market_2012_Q4.parquet
+2026-04-04 14:52:12,821  INFO      
+[13/32] 2013 Q1
+2026-04-04 14:52:12,823  DEBUG     URL: https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2013_1.zip
+2026-04-04 14:52:12,823  INFO        [DOWN] 2013 Q1 -- downloading (attempt 1/3)...
+2026-04-04 14:53:10,516  DEBUG       Downloaded 78.6 MB compressed
+2026-04-04 14:53:40,985  INFO        [OK]   2013 Q1 -- 5,259,289 rows saved -> db1b_market_2013_Q1.parquet
+2026-04-04 14:53:43,067  INFO      
+[14/32] 2013 Q2
+2026-04-04 14:53:43,067  DEBUG     URL: https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2013_2.zip
+2026-04-04 14:53:43,067  INFO        [DOWN] 2013 Q2 -- downloading (attempt 1/3)...
+2026-04-04 14:54:48,839  DEBUG       Downloaded 89.6 MB compressed
+2026-04-04 14:55:21,136  INFO        [OK]   2013 Q2 -- 6,029,125 rows saved -> db1b_market_2013_Q2.parquet
+2026-04-04 14:55:23,266  INFO      
+[15/32] 2013 Q3
+2026-04-04 14:55:23,267  DEBUG     URL: https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2013_3.zip
+2026-04-04 14:55:23,267  INFO        [DOWN] 2013 Q3 -- downloading (attempt 1/3)...
+2026-04-04 14:56:28,051  DEBUG       Downloaded 87.5 MB compressed
+2026-04-04 14:57:00,867  INFO        [OK]   2013 Q3 -- 5,815,426 rows saved -> db1b_market_2013_Q3.parquet
+2026-04-04 14:57:02,956  INFO      
+[16/32] 2013 Q4
+2026-04-04 14:57:02,958  DEBUG     URL: https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2013_4.zip
+2026-04-04 14:57:02,958  INFO        [DOWN] 2013 Q4 -- downloading (attempt 1/3)...
+2026-04-04 14:58:26,177  DEBUG       Downloaded 85.9 MB compressed
+2026-04-04 14:58:59,463  INFO        [OK]   2013 Q4 -- 5,743,523 rows saved -> db1b_market_2013_Q4.parquet
+2026-04-04 14:59:01,545  INFO      
+[17/32] 2014 Q1
+2026-04-04 14:59:01,546  DEBUG     URL: https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2014_1.zip
+2026-04-04 14:59:01,547  INFO        [DOWN] 2014 Q1 -- downloading (attempt 1/3)...
+2026-04-04 15:00:02,851  DEBUG       Downloaded 82.1 MB compressed
+2026-04-04 15:00:32,765  INFO        [OK]   2014 Q1 -- 5,421,606 rows saved -> db1b_market_2014_Q1.parquet
+2026-04-04 15:00:34,844  INFO      
+[18/32] 2014 Q2
+2026-04-04 15:00:34,845  DEBUG     URL: https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2014_2.zip
+2026-04-04 15:00:34,846  INFO        [DOWN] 2014 Q2 -- downloading (attempt 1/3)...
+2026-04-04 15:01:43,713  DEBUG       Downloaded 93.3 MB compressed
+2026-04-04 15:02:17,393  INFO        [OK]   2014 Q2 -- 6,295,145 rows saved -> db1b_market_2014_Q2.parquet
+2026-04-04 15:02:19,506  INFO      
+[19/32] 2014 Q3
+2026-04-04 15:02:19,506  DEBUG     URL: https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2014_3.zip
+2026-04-04 15:02:19,506  INFO        [DOWN] 2014 Q3 -- downloading (attempt 1/3)...
+2026-04-04 15:03:29,472  DEBUG       Downloaded 93.5 MB compressed
+2026-04-04 15:04:01,918  INFO        [OK]   2014 Q3 -- 6,380,810 rows saved -> db1b_market_2014_Q3.parquet
+2026-04-04 15:04:04,037  INFO      
+[20/32] 2014 Q4
+2026-04-04 15:04:04,037  DEBUG     URL: https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2014_4.zip
+2026-04-04 15:04:04,037  INFO        [DOWN] 2014 Q4 -- downloading (attempt 1/3)...
+2026-04-04 15:05:31,834  DEBUG       Downloaded 90.6 MB compressed
+2026-04-04 15:06:05,795  INFO        [OK]   2014 Q4 -- 6,275,151 rows saved -> db1b_market_2014_Q4.parquet
+2026-04-04 15:06:07,900  INFO      
+[21/32] 2015 Q1
+2026-04-04 15:06:07,901  DEBUG     URL: https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2015_1.zip
+2026-04-04 15:06:07,901  INFO        [DOWN] 2015 Q1 -- downloading (attempt 1/3)...
+2026-04-04 15:07:09,064  DEBUG       Downloaded 82.9 MB compressed
+2026-04-04 15:07:38,497  INFO        [OK]   2015 Q1 -- 5,582,629 rows saved -> db1b_market_2015_Q1.parquet
+2026-04-04 15:07:40,630  INFO      
+[22/32] 2015 Q2
+2026-04-04 15:07:40,631  DEBUG     URL: https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2015_2.zip
+2026-04-04 15:07:40,632  INFO        [DOWN] 2015 Q2 -- downloading (attempt 1/3)...
+2026-04-04 15:09:18,616  DEBUG       Downloaded 96.7 MB compressed
+2026-04-04 15:09:55,974  INFO        [OK]   2015 Q2 -- 6,594,239 rows saved -> db1b_market_2015_Q2.parquet
+2026-04-04 15:09:58,162  INFO      
+[23/32] 2015 Q3
+2026-04-04 15:09:58,163  DEBUG     URL: https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2015_3.zip
+2026-04-04 15:09:58,163  INFO        [DOWN] 2015 Q3 -- downloading (attempt 1/3)...
+2026-04-04 15:11:14,389  DEBUG       Downloaded 93.7 MB compressed
+2026-04-04 15:11:44,509  INFO        [OK]   2015 Q3 -- 6,438,733 rows saved -> db1b_market_2015_Q3.parquet
+2026-04-04 15:11:46,608  INFO      
+[24/32] 2015 Q4
+2026-04-04 15:11:46,608  DEBUG     URL: https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2015_4.zip
+2026-04-04 15:11:46,609  INFO        [DOWN] 2015 Q4 -- downloading (attempt 1/3)...
+2026-04-04 15:12:54,535  DEBUG       Downloaded 91.9 MB compressed
+2026-04-04 15:13:23,761  INFO        [OK]   2015 Q4 -- 6,408,010 rows saved -> db1b_market_2015_Q4.parquet
+2026-04-04 15:13:25,849  INFO      
+[25/32] 2016 Q1
+2026-04-04 15:13:25,849  DEBUG     URL: https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2016_1.zip
+2026-04-04 15:13:25,849  INFO        [DOWN] 2016 Q1 -- downloading (attempt 1/3)...
+2026-04-04 15:14:27,680  DEBUG       Downloaded 83.7 MB compressed
+2026-04-04 15:14:56,207  INFO        [OK]   2016 Q1 -- 5,858,752 rows saved -> db1b_market_2016_Q1.parquet
+2026-04-04 15:14:58,285  INFO      
+[26/32] 2016 Q2
+2026-04-04 15:14:58,285  DEBUG     URL: https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2016_2.zip
+2026-04-04 15:14:58,286  INFO        [DOWN] 2016 Q2 -- downloading (attempt 1/3)...
+2026-04-04 15:16:10,793  DEBUG       Downloaded 93.0 MB compressed
+2026-04-04 15:16:41,015  INFO        [OK]   2016 Q2 -- 6,605,176 rows saved -> db1b_market_2016_Q2.parquet
+2026-04-04 15:16:43,135  INFO      
+[27/32] 2016 Q3
+2026-04-04 15:16:43,137  DEBUG     URL: https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2016_3.zip
+2026-04-04 15:16:43,137  INFO        [DOWN] 2016 Q3 -- downloading (attempt 1/3)...
+2026-04-04 15:17:51,384  DEBUG       Downloaded 92.4 MB compressed
+2026-04-04 15:18:21,007  INFO        [OK]   2016 Q3 -- 6,504,752 rows saved -> db1b_market_2016_Q3.parquet
+2026-04-04 15:18:23,120  INFO      
+[28/32] 2016 Q4
+2026-04-04 15:18:23,121  DEBUG     URL: https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2016_4.zip
+2026-04-04 15:18:23,121  INFO        [DOWN] 2016 Q4 -- downloading (attempt 1/3)...
+2026-04-04 15:19:31,041  DEBUG       Downloaded 91.5 MB compressed
+2026-04-04 15:20:02,759  INFO        [OK]   2016 Q4 -- 6,567,113 rows saved -> db1b_market_2016_Q4.parquet
+2026-04-04 15:20:04,862  INFO      
+[29/32] 2017 Q1
+2026-04-04 15:20:04,863  DEBUG     URL: https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2017_1.zip
+2026-04-04 15:20:04,863  INFO        [DOWN] 2017 Q1 -- downloading (attempt 1/3)...
+2026-04-04 15:21:05,816  DEBUG       Downloaded 82.7 MB compressed
+2026-04-04 15:21:33,397  INFO        [OK]   2017 Q1 -- 5,866,623 rows saved -> db1b_market_2017_Q1.parquet
+2026-04-04 15:21:35,476  INFO      
+[30/32] 2017 Q2
+2026-04-04 15:21:35,476  DEBUG     URL: https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2017_2.zip
+2026-04-04 15:21:35,476  INFO        [DOWN] 2017 Q2 -- downloading (attempt 1/3)...
+2026-04-04 15:22:46,122  DEBUG       Downloaded 91.8 MB compressed
+2026-04-04 15:23:16,946  INFO        [OK]   2017 Q2 -- 6,566,460 rows saved -> db1b_market_2017_Q2.parquet
+2026-04-04 15:23:19,048  INFO      
+[31/32] 2017 Q3
+2026-04-04 15:23:19,048  DEBUG     URL: https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2017_3.zip
+2026-04-04 15:23:19,048  INFO        [DOWN] 2017 Q3 -- downloading (attempt 1/3)...
+2026-04-04 15:24:34,106  DEBUG       Downloaded 90.0 MB compressed
+2026-04-04 15:25:04,233  INFO        [OK]   2017 Q3 -- 6,321,204 rows saved -> db1b_market_2017_Q3.parquet
+2026-04-04 15:25:06,336  INFO      
+[32/32] 2017 Q4
+2026-04-04 15:25:06,337  DEBUG     URL: https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2017_4.zip
+2026-04-04 15:25:06,337  INFO        [DOWN] 2017 Q4 -- downloading (attempt 1/3)...
+2026-04-04 15:26:29,259  DEBUG       Downloaded 94.2 MB compressed
+2026-04-04 15:27:00,173  INFO        [OK]   2017 Q4 -- 6,860,743 rows saved -> db1b_market_2017_Q4.parquet
+2026-04-04 15:27:00,324  INFO      
+=======================================================
+2026-04-04 15:27:00,324  INFO        FRED API DATA DOWNLOAD
+2026-04-04 15:27:00,325  INFO        2 series: jet fuel prices + airline CPI
+2026-04-04 15:27:00,325  INFO      =======================================================
+
+2026-04-04 15:27:00,326  INFO        [DOWN] jet_fuel_weekly (WJETT) -- fetching from FRED...
+2026-04-04 15:27:00,326  DEBUG       URL: https://api.stlouisfed.org/fred/series/observations?series_id=WJETT&api_key=***&file_type=json&observation_start=2009-01-01&observation_end=2018-12-31
+2026-04-04 15:27:00,882  ERROR       [FAIL] FRED API error: Bad Request.  The series does not exist.
+2026-04-04 15:27:00,882  ERROR          Check your API key at https://fred.stlouisfed.org/docs/api/api_key.html
+2026-04-04 15:27:01,395  INFO        [DOWN] airline_cpi (CUSR0000SETG01) -- fetching from FRED...
+2026-04-04 15:27:01,396  DEBUG       URL: https://api.stlouisfed.org/fred/series/observations?series_id=CUSR0000SETG01&api_key=***&file_type=json&observation_start=2009-01-01&observation_end=2018-12-31
+2026-04-04 15:27:01,854  INFO        [OK]   airline_cpi -- 120 observations saved -> airline_cpi.csv
+2026-04-04 15:27:01,857  INFO               Date range: 2009-01-01 to 2018-12-01
+2026-04-04 15:27:02,358  INFO      
+=======================================================
+2026-04-04 15:27:02,358  INFO        DOWNLOAD SUMMARY
+2026-04-04 15:27:02,358  INFO      =======================================================
+2026-04-04 15:27:02,358  INFO      
+  DB1B Market Data:
+2026-04-04 15:27:02,358  INFO          [OK]   Downloaded: 32 quarters
+2026-04-04 15:27:02,359  INFO          [SKIP] Skipped:    0 quarters (already existed)
+2026-04-04 15:27:02,359  INFO          [FAIL] Failed:     0 quarters
+2026-04-04 15:27:02,359  INFO      
+  FRED Series:
+2026-04-04 15:27:02,359  INFO          [OK]   Downloaded: 1 series
+2026-04-04 15:27:02,359  INFO          [FAIL] Failed:     1 series
+2026-04-04 15:27:02,359  INFO      
+  Output files:
+2026-04-04 15:27:02,365  INFO          DB1B parquet files: 4102 MB total
+2026-04-04 15:27:02,365  INFO      
+  Total time: 55.7 minutes
+2026-04-04 15:27:02,365  INFO      
+  [WARN] Some downloads failed. Re-run the script to retry.
+2026-04-04 15:27:02,365  INFO               (Script skips already-downloaded files automatically)
+2026-04-04 15:27:02,365  INFO      =======================================================
