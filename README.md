@@ -267,7 +267,6 @@ This project was built using multiple AI coding assistants throughout the develo
 |---|---|
 | **Claude (claude.ai)** | Specification writing, debugging, code review |
 | **Claude Code** | Notebook generation, Flask API, Streamlit app, Dockerfile creation |
-| **OpenRouter / Cline** | Alternative model access for notebook generation tasks |
 
 ### How AI Assistance Was Used
 
